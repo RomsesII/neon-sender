@@ -1,26 +1,20 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import {MetaMaskProvider} from "metamask-react";
+import {MainPage} from "./pages/MainPage";
+import "./index.css";
+import {ReactNotifications} from "react-notifications-component";
+import "react-notifications-component/dist/theme.css";
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <>
+            <ReactNotifications/>
+            <MetaMaskProvider>
+                <MainPage></MainPage>
+            </MetaMaskProvider>
+        </>
+    );
 }
 
 export default App;
