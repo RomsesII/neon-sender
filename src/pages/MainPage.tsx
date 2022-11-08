@@ -174,6 +174,10 @@ export const MainPage = () => {
         }
     }, [web3, validChain]);
 
+    useEffect(() => {
+        reset()
+    }, [account])
+
 
     return <div className={MainPageStyles.mainBlock}>
         <div className={MainPageStyles.content}>
