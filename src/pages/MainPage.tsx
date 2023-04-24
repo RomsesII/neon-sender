@@ -63,12 +63,14 @@ export const MainPage = () => {
                     tokenAddress,
                     JSON.parse(erc20Abi.result) as AbiItem[]
                 );
+                console.log(tokenAddress)
                 setErc20Contract(erc20Contract)
                 const check =
                     await erc20Contract.methods
                         .allowance(account, SENDER_CONTRACT_ADDRESS)
                         .call()
                 const balance = await erc20Contract?.methods.balanceOf(account).call()
+                console.log(balance)
                 setTokenBalance(balance * tokenObject?.factor! || 0)
                 if (Number(check) > 0) {
                     setTokenPermission(true)
@@ -138,7 +140,8 @@ export const MainPage = () => {
                 }
                 setSenderLoading(false)
             }
-        } catch {
+        } catch (error) {
+            console.log(error)
             setSenderLoading(false)
             showNotify({
                 title: "Error",
