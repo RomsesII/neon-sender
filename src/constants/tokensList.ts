@@ -9,17 +9,17 @@ export const tokensList = [
         "symbol": "NEON",
         "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/main/neon_token_md.png"
     },
+    // {
+    //     "address": "0x11adC2d986E334137b9ad0a0F290771F31e9517F",
+    //     "decimals": 18,
+    //     "zero_const": "000000000000000000",
+    //     "factor": 1e-18,
+    //     "name": "Wrapped Neon",
+    //     "symbol": "wNEON",
+    //     "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/wrapped-neon-logo.svg"
+    // },
     {
-        "address": "0x11adC2d986E334137b9ad0a0F290771F31e9517F",
-        "decimals": 18,
-        "zero_const": "000000000000000000",
-        "factor": 1e-18,
-        "name": "Wrapped Neon",
-        "symbol": "wNEON",
-        "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/wrapped-neon-logo.svg"
-    },
-    {
-        "address": "0x0e6915Fd79863816e7949ebA5dC45d1E2D09a215",
+        "address": "0x6eEf939FC6e2B3F440dCbB72Ea81Cd63B5a519A5",
         "decimals": 6,
         "zero_const": "000000",
         "factor": 1e-6,
@@ -28,7 +28,7 @@ export const tokensList = [
         "logoURI": "https://raw.githubusercontent.com/compound-finance/token-list/master/assets/asset_USDT.svg"
     },
     {
-        "address": "0xCDa62E8333EB3BBCf384164496F18397BB79be4C",
+        "address": "0xC989FfF9d02C459117A2EaBb8dA3f03DFd9045DE",
         "decimals": 9,
         "zero_const": "000000000",
         "factor": 1e-9,
@@ -37,7 +37,7 @@ export const tokensList = [
         "logoURI": "https://raw.githubusercontent.com/compound-finance/token-list/master/assets/asset_DAI.svg"
     },
     {
-        "address": "0x4F6B3c357c439E15FB61c1187cc5E28eC72bBc55",
+        "address": "0x512E48836Cd42F3eB6f50CEd9ffD81E0a7F15103",
         "decimals": 6,
         "zero_const": "000000",
         "factor": 1e-6,
@@ -46,7 +46,7 @@ export const tokensList = [
         "logoURI": "https://raw.githubusercontent.com/compound-finance/token-list/master/assets/asset_USDC.svg"
     },
     {
-        "address": "0xF8fe59a3a47Cfd968f96dB0a6af55309cb551c66",
+        "address": "0x46E986B5b0f87F1026ff52Ce20340467199F891D",
         "decimals": 6,
         "zero_const": "000000",
         "factor": 1e-6,
@@ -55,7 +55,7 @@ export const tokensList = [
         "logoURI": "https://raw.githubusercontent.com/compound-finance/token-list/master/assets/ctoken_eth.svg"
     },
     {
-        "address": "0xd191D1372F598da7b3c25e53f369B00e9c3f80bD",
+        "address": "0x2B86AEf728405F8F6597e5896a1844E36ddE77aD",
         "decimals": 8,
         "zero_const": "00000000",
         "factor": 1e-8,
@@ -64,7 +64,7 @@ export const tokensList = [
         "logoURI": "https://raw.githubusercontent.com/compound-finance/token-list/master/assets/ctoken_wbtc.svg"
     },
     {
-        "address": "0xA7046cee4441e1771073afA42E56993113fD2633",
+        "address": "0x10D486dD3B38a304cF61e8dA70ADED03D9a7787A",
         "decimals": 6,
         "zero_const": "000000",
         "factor": 1e-6,
@@ -73,7 +73,7 @@ export const tokensList = [
         "logoURI": "https://cryptologos.cc/logos/aave-aave-logo.png?v=023"
     },
     {
-        "address": "0x6BA61a7dd0b67A8c3403800Fe951065A6D0f4735",
+        "address": "0x4cfb9dffB6998fB74c89a094E3A8373EA3C081ff",
         "decimals": 9,
         "zero_const": "000000000",
         "factor": 1e-9,
@@ -82,7 +82,7 @@ export const tokensList = [
         "logoURI": "https://cryptologos.cc/logos/curve-dao-token-crv-logo.png"
     },
     {
-        "address": "0x9A0717142D72Bb398851A4453a7D5Dc5E5e26Cc0",
+        "address": "0x72a3DD8111813d9B29ACAB4b90622Ba95BDF1414",
         "decimals": 6,
         "zero_const": "000000",
         "factor": 1e-6,
@@ -91,7 +91,7 @@ export const tokensList = [
         "logoURI": "https://cryptologos.cc/logos/sushiswap-sushi-logo.png?v=023"
     },
     {
-        "address": "0x347b2f26e5900Cb4749A5A9bd97e1a7bF42eaf0f",
+        "address": "0x7047dcc44E38798AC0CB9DE465609A7dd95d04dC",
         "decimals": 9,
         "zero_const": "000000000",
         "factor": 1e-9,
@@ -100,7 +100,7 @@ export const tokensList = [
         "logoURI": "https://cryptologos.cc/logos/balancer-bal-logo.png"
     },
     {
-        "address": "0x302882E0c607c58018be3BB186b0aA0aC4F90136",
+        "address": "0xc7Fc9b46e479c5Cb42f6C458D1881e55E6B7986c",
         "decimals": 9,
         "zero_const": "000000000",
         "factor": 1e-9,
